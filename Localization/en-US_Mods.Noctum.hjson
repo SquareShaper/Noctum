@@ -3,12 +3,31 @@
 
 Items: {
 	Noctis: {
-		DisplayName: "Noctis"
+		DisplayName: Noctis
 		Tooltip:
 			'''
 			Template of an item
 			Replacing this tooltip is duty 
 			It's snowing on Mt.Fuji
 			'''
+	}
+
+	Noctium: {
+		Tooltip: ""
+		DisplayName: Noctium
+	}
+
+	NoctiaMinionItem: {
+		Tooltip: ""
+		DisplayName: Noctia Minion Item
+	}
+}
+
+Projectiles.NoctiaMinion.DisplayName: Noctia Minion
+
+Buffs: {
+	NoctiaMinionBuff: {
+		Description: Mods.Noctum.Buffs.NoctiaMinionBuff.Description
+		DisplayName: Noctia Minion Buff
 	}
 }

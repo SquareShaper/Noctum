@@ -1,8 +1,9 @@
+using Noctum.Content.Items.Materials;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Noctum.Content.Items
+namespace Noctum.Content.Items.Weapons
 {
 	// This is a basic item template.
 	// Please see tModLoader's ExampleMod for every other example:
@@ -29,7 +30,7 @@ namespace Noctum.Content.Items
 		public override void AddRecipes()
 		{
 			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(ItemID.DirtBlock, 10);
+			recipe.AddIngredient<Noctium>(10);
 			recipe.AddTile(TileID.WorkBenches);
 			recipe.Register();
 		}

@@ -1,6 +1,6 @@
 using Terraria.ModLoader;
 
-namespace Noctis.Content.Items.Materials
+namespace Noctum.Content.Items.Materials
 {
     public class Noctium : ModItem {
         public override void SetStaticDefaults() {
