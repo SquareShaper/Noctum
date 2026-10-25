@@ -10,6 +10,12 @@ namespace Noctum.Content.Projectiles.Minions
 {
     public class NoctiaMinion : ModProjectile
     {
+
+		private enum ActionStates
+		{
+			Idle,
+			Attacking
+		}
         public override void SetStaticDefaults()
         {
             // set the frames of the sprite sheet
@@ -81,7 +87,6 @@ namespace Noctum.Content.Projectiles.Minions
         private void GeneralBehavior(Player owner, out Vector2 vectorToIdlePosition, out float distanceToIdlePosition)
         {
             Vector2 idlePosition = owner.Center;
-            idlePosition.Y -= 48f; // 3 tiles above the owner
 
             // If your minion doesn't aimlessly move around when it's idle, you need to "put" it into the line of other summoned minions
 			// The index is projectile.minionPos

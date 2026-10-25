@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Noctum")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28127e7892da8c1dae6b364698adb6453791c693")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2467c01d7ff5752282eda46ab17ba098acdb40ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("Noctum")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Noctum")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
